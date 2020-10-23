@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo TailwindCss</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./custom-css.css" />
+</head>
+
+<body>
+  <section id="landing-page" class="text-white bg-blue-700">
+    <div class="flex items-center justify-between px-12 pt-12 md:px-24">
+      <div class="text-lg font-bold">Theory</div>
+      <div>
+        <ul class="capitalize">
+          <li class="hidden px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 md:inline-block">
+            home
+          </li>
+          <li class="hidden px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 md:inline-block">
+            generic
+          </li>
+          <li class="hidden px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 md:inline-block">
+            element
+          </li>
+          <svg class="h-8 w-8 cursor-pointer inline-block md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </ul>
+      </div>
+    </div>
+    <div id="landing-comtent" class="text-center pt-20">
+      <h1 class="text-4xl md:text-5xl font-bold-sm capitalize">welcome to Theory</h1>
+      <p class="capitalize text-lg text-gray-400">
+        Explore the world with us
+      </p>
+    </div>
+    <!-- <div class="nav-mobile bg-blue-600">
+      <ul class="capitalize">
+        <li class="px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 ">
+          home
+        </li>
+        <li class="px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 ">
+          generic
+        </li>
+        <li class="px-4 font-bold cursor-pointer rounded-md py-2 hover:bg-blue-700 ">
+          element
+        </li> 
+      </ul>
+    </div> -->
+  </section>
+
+  <section id="content-one">
+    <div class="bg-white sm:px-4 md:px-10 lg:px-24 pt-16 lg:flex">
+      <div class="px-8">
+        <div class="text-blue-700 text-lg font-bold capitalize text-center md:text-left ">
+          Magna tempus sed amet <br />
+          aliquam veroeros
+        </div>
+        <div class="py-4 text-gray-500">
+          Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+          a ullamcorper laoreet, lectus arcu.
+        </div>
+        <div class="px-4 py-2 rounded bg-blue-700 font-bold text-white md:inline-block cursor-pointer text-center mb-8">More</div>
+      </div>
+      <div class="px-8">
+        <div class="text-blue-700 text-lg font-bold capitalize text-center md:text-left">
+          Interdum lorem pulvinar <br/>
+          adipiscing vitae
+        </div>
+        <div class="py-4 text-gray-500">
+          Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+          a ullamcorper laoreet, lectus arcu.
+        </div>
+        <div class="px-4 py-2 rounded bg-blue-700 font-bold text-white md:inline-block cursor-pointer text-center mb-8">More</div>
+      </div>
+      <div class="px-8">
+        <div class="text-blue-700 text-lg font-bold capitalize text-center md:text-left">
+          Libero purus magna sapien <br />
+          sed ullamcorper
+        </div>
+        <div class="py-4 text-gray-500">
+          Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna
+          a ullamcorper laoreet, lectus arcu.
+        </div>
+        <div  class="px-4 py-2 rounded bg-blue-700 font-bold text-white md:inline-block cursor-pointer text-center mb-8">More</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content-two">
+    <div class="bg-blue-700 text-white mt-16 p-4 lg:p-24">
+      <div class="text-center">
+        <div class="text-5xl">Ipsum Feugiat</div>
+        <div class="text-gray-500 pt-4">Semper suscipit posuere apede</div>
+      </div>
+      <div class="lg:flex lg:justify-evenly mt-8 text-center md:grid md:grid-cols-2">
+        <div class="an p-12 lg:p-8 m-6" align="center">
+          <img src="./images/pic03.jpg" alt="pic1" class="rounded-full">
+          <div>
+            <h1 class="p-2 text-lg font-bold">Magna</h1>
+            <p class="text-gray-400">Cipdum dolor</p>
+          </div>
+        </div>
+        <div class="an p-12 lg:p-8 m-6"  align="center">
+          <img src="./images/pic04.jpg" alt="pic2" class="rounded-full">
+          <div>
+            <h1 class="p-2 text-lg font-bold">Ipsum</h1>
+            <P class="text-gray-400">Vestibulum comm</P>
+          </div>
+        </div>
+        <div class="an p-12 lg:p-8 m-6"  align="center">
+          <img src="./images/pic05.jpg" alt="pic3" class="rounded-full">
+          <div>
+            <h1 class="p-2 text-lg font-bold">Tempus</h1>
+            <p class="text-gray-400">Fusce pellentes</p>
+          </div>
+        </div>
+        <div class="an p-12 lg:p-8 m-6"  align="center">
+          <img src="./images/pic06.jpg" alt="pic4" class="rounded-full">
+          <div>
+            <h1 class="p-2 text-lg font-bold">Dolore</h1>
+            <p class="text-gray-400">Praesent placer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="content-three">
+    <div class="p-4 lg:p-24">
+      <div class="text-center">
+        <div class="text-blue-700 text-2xl md:text-5xl">Nunc Dignissim</div>
+        <div class="py-4 text-gray-400">Aliquam erat volutpat nam dui</div>
+      </div>
+      <div class="lg:flex pt-8">
+        <div class="px-8">
+          <img src="./images/pic01.jpg" alt="pic5" class="w-full">
+          <h1 class="pt-4 text-2xl text-blue-700">Praesent placerat magna</h1>
+          <p class="py-8 text-gray-500">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor lorem ipsum</p>
+          <div class="px-4 py-2 rounded bg-blue-700 font-bold text-white md:inline-block cursor-pointer text-center mb-8">More</div>
+        </div>
+        <div class="px-8">
+          <img src="./images/pic02.jpg" alt="pic6" class="w-full">
+          <h1 class="pt-4 text-2xl text-blue-700">Fusce pellentesque tempus</h1>
+          <p class="py-8 text-gray-500">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna non comodo sodales tempus.</p>
+          <div class="px-4 py-2 rounded bg-blue-700 font-bold text-white md:inline-block cursor-pointer text-center mb-8">More</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="page-footer">
+    <div class="py-8 px-12 lg:px-24 ">
+     <div class="flex flex-col-reverse md:justify-between md:flex-row mt-2">
+      <div class="text-gray-500">
+        <p>&copy; Untitled. Design: TEMPLATED. Images: Unsplash.</p>
+        <p>Made with love by <a href="http://twitter.com/dev_mayowa" target="_blank" rel="noopener noreferrer"><span class="text-blue-500">oluwamayowa</span></a></p>
+      </div>
+      <div>
+        <i class="fa fa-facebook px-2 text-blue-400 cursor-pointer w-8 h-8"></i>
+        <i class="fa fa-twitter px-2 text-blue-400 cursor-pointer w-8 h-8"></i>
+        <i class="fa fa-linkedin px-2 text-blue-400 cursor-pointer w-8 h-8"></i>
+        <i class="fa fa-pinterest px-2 text-blue-400 cursor-pointer w-8 h-8"></i>
+        <i class="fa fa-vimeo px-2 text-blue-400 cursor-pointer w-8 h-8"></i>
+      </div>
+     </div>
+    </div>
+  </section>
+</body>
+
+</html>
