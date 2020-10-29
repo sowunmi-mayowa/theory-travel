@@ -18,8 +18,13 @@
     border-left: 1px solid #5385c1;
 
 } */
-.an{
-    border: 1px solid rgba(255, 255, 255, 0.25);
+.nav-mobile{
+    transition: all .5s ease-in;
+}
+svg{
+   top: 35px;
+   z-index: 10;
+   right: 30px;
 }
 /* .mobile-nav{
     position: fixed;
