@@ -20,11 +20,18 @@
 } */
 .nav-mobile{
     transition: all .5s ease-in;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 svg{
    top: 35px;
    z-index: 10;
    right: 30px;
+}
+.an{
+    border:2px solid rgba(255, 255, 255, 0.25);
 }
 /* .mobile-nav{
     position: fixed;
@@ -36,3 +43,8 @@ svg{
 .mobile-nav ul{
     height: 100vh;
 } */
+@media(max-width:425px){
+    .nav-mobile{
+        display: block;
+    }
+}

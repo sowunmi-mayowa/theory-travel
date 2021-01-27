@@ -1,8 +1,6 @@
 const mobileNav = document.querySelector(".nav-mobile");
 const button = document.querySelector("svg");
 
-mobileNav.style.right == "-250px"
-
 button.addEventListener("click", toggleNav);
 
 function toggleNav(){
